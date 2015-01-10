@@ -11,3 +11,6 @@ c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadSe
 c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.csproj.GenerateResource.Cache
 c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.exe
 c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.pdb
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\bin\Debug\RemoteWinPadServer.exe.config
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.exe
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.pdb
