@@ -44,12 +44,8 @@ namespace RemoteWinPadServer.ViewModel
 
             _model = new MainModel();
 
-            SampleCommand = new RelayCommand(() =>
-            {
-                Model.Sample = "hoge";
-            });
+            
         }
 
-        public RelayCommand SampleCommand { get; set; }
     }
 }

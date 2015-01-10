@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RemoteWinPadServer.TaskTray;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,20 @@ namespace RemoteWinPadServer
     /// </summary>
     public partial class App : Application
     {
+        private NotifyIconWrapper _wrapper;
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            
+            _wrapper = new NotifyIconWrapper();
+        }
+
+        
+
+        protected override void OnExit(ExitEventArgs e)
+        {
+            base.OnExit(e);
+            _wrapper.Dispose();
+        }
     }
 }

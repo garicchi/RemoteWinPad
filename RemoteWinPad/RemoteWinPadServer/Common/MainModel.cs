@@ -1,4 +1,5 @@
 ﻿using GalaSoft.MvvmLight;
+using RemoteWinPadServer.Network;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,16 @@ namespace RemoteWinPadServer.Common
 {
     public class MainModel:ObservableObject
     {
-        private string _sample;
+        private RemoteServer _remoteServer;
 
-        public string Sample
+        public RemoteServer RemoteServer
         {
-            get { return _sample; }
-            set { Set(ref _sample,value); }
+            get { return _remoteServer; }
+            set { Set(ref _remoteServer,value); }
         }
         public MainModel()
         {
-            Sample = "moge";
+            _remoteServer = new RemoteServer();
         }
 
         

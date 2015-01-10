@@ -35,10 +35,8 @@ C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\R
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\MainWindow.baml
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\MainWindow.g.cs
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\App.g.cs
-C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer_MarkupCompile.cache
-C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer_MarkupCompile.lref
-C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\App.baml
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.g.resources
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.Properties.Resources.resources
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.csproj.GenerateResource.Cache
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.TaskTray.NotifyIconWrapper.resources

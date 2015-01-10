@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RemoteWinPadServer.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -32,10 +33,31 @@ namespace RemoteWinPadServer
         [DllImport("user32.dll")]
         static extern bool SetCursorPos(int X, int Y);
 
+        private ViewModelLocator _locator;
+
+        private bool _isShow;
+
+        public bool IsShow
+        {
+            get { return _isShow; }
+            set { _isShow = value; }
+        }
         
         public MainWindow()
         {
             InitializeComponent();
+
+            this.Closing += (s, e) =>
+            {
+                e.Cancel = true;
+                IsShow = false;
+               
+                this.WindowState = WindowState.Minimized;
+                this.ShowInTaskbar = false;
+            };
+
+            _locator=new ViewModelLocator();
+            this.DataContext = _locator.Main;
         }
 
         private void btn1_Click(object sender, RoutedEventArgs e)
@@ -45,5 +67,8 @@ namespace RemoteWinPadServer
             //GetCursorPos(out pos);
             //SetCursorPos(100,100);
         }
+
+
+        
     }
 }
