@@ -1,4 +1,5 @@
 using GalaSoft.MvvmLight;
+using RemoteWinPadServer.Common;
 
 namespace RemoteWinPadServer.ViewModel
 {
@@ -19,6 +20,16 @@ namespace RemoteWinPadServer.ViewModel
         /// <summary>
         /// Initializes a new instance of the MainViewModel class.
         /// </summary>
+        /// 
+
+        private MainModel _model;
+
+        public MainModel Model
+        {
+            get { return _model; }
+            set { Set(ref _model,value); }
+        }
+
         public MainViewModel()
         {
             ////if (IsInDesignMode)
@@ -29,6 +40,8 @@ namespace RemoteWinPadServer.ViewModel
             ////{
             ////    // Code runs "for real"
             ////}
+
+            _model = new MainModel();
         }
     }
 }
