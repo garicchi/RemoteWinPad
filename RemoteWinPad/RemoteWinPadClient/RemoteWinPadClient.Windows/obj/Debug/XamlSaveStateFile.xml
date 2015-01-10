@@ -4,6 +4,7 @@
     <ReferenceAssembly PathName="c:\users\ryota\projects\remotewinpad\remotewinpad\packages\mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.extras.dll" HashGuid="28bb2089-c7a4-73bb-7a72-1ea8b02698b0" />
     <ReferenceAssembly PathName="c:\users\ryota\projects\remotewinpad\remotewinpad\packages\mvvmlightlibs.5.0.2.0\lib\netcore451\galasoft.mvvmlight.platform.dll" HashGuid="54c1f1ed-b921-337f-8ad6-f2d8c553df06" />
     <ReferenceAssembly PathName="c:\users\ryota\projects\remotewinpad\remotewinpad\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="c:\users\ryota\projects\remotewinpad\remotewinpad\packages\newtonsoft.json.6.0.7\lib\netcore45\newtonsoft.json.dll" HashGuid="563b31f6-2134-5a23-555f-2a14fe4d9632" />
     <ReferenceAssembly PathName="c:\users\ryota\projects\remotewinpad\remotewinpad\remotewinpadlib\bin\debug\remotewinpadlib.dll" HashGuid="5692ad95-2378-1032-20c3-591fd64a8e96" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

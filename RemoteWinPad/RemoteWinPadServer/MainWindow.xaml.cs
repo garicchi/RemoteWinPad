@@ -22,16 +22,7 @@ namespace RemoteWinPadServer
     /// </summary>
     public partial class MainWindow : Window
     {
-        struct POINT
-        {
-            public int X;
-            public int Y;
-
-        }
-        [DllImport("user32.dll")]
-        private static extern bool GetCursorPos(out POINT lpPoint);
-        [DllImport("user32.dll")]
-        static extern bool SetCursorPos(int X, int Y);
+        
 
         private ViewModelLocator _locator;
 
@@ -62,7 +53,6 @@ namespace RemoteWinPadServer
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
-            POINT pos = new POINT();
             
             //GetCursorPos(out pos);
             //SetCursorPos(100,100);

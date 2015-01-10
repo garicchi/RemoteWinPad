@@ -1,4 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
+using Newtonsoft.Json;
+using RemoteWinPadLib.Data;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -36,30 +38,74 @@ namespace RemoteWinPadServer.Network
             get { return _clientList; }
             set { Set(ref _clientList,value); }
         }
+
+        private bool _isListening;
+
+        public bool IsListening
+        {
+            get { return _isListening; }
+            set { Set(ref _isListening, value); }
+        }
         #endregion
         
 
-        public RemoteServer(IPAddress address,int port)
+        public RemoteServer()
         {
-            this.Port=port;
-            this._address=address;
-            _listener = new TcpListener(address,port);
+            
             _clientList = new ObservableCollection<RemoteClient>();
+            _isListening = false;
         }
 
-        public async Task ListenAsync()
+        public async Task ListenAsync(IPAddress address, int port)
         {
+            this.Port = port;
+            this._address = address;
+            _listener = new TcpListener(address, port);
+
             _listener.Start();
+            IsListening = true;
             while (true)
             {
-                Socket socket = await _listener.AcceptSocketAsync();
-                ClientList.Add(new RemoteClient(socket));
+                var client = await _listener.AcceptTcpClientAsync();
+                if (!IsListening)
+                {
+                    break;
+                }
+                else
+                {
+                    ClientList.Add(new RemoteClient(client));
+                }
+                
             }
         }
 
-        public void Stop()
+        public void StopListener()
         {
+            IsListening = false;
+           
             _listener.Stop();
         }
+
+        public async Task StartReceiveClients(Action<PadData> onReceive)
+        {
+            foreach (RemoteClient client in _clientList)
+            {
+                await client.OpenAsync(async(string message) =>
+                {
+                    PadData data = await JsonConvert.DeserializeObjectAsync<PadData>(message);
+                    onReceive(data);
+                });
+            }
+        }
+
+        public void StopReceiveClients()
+        {
+            foreach (RemoteClient client in _clientList)
+            {
+                client.Close();
+            }
+        }
+
+        
     }
 }
