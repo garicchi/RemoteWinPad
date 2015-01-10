@@ -1,4 +1,5 @@
 using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 using RemoteWinPadServer.Common;
 
 namespace RemoteWinPadServer.ViewModel
@@ -42,6 +43,13 @@ namespace RemoteWinPadServer.ViewModel
             ////}
 
             _model = new MainModel();
+
+            SampleCommand = new RelayCommand(() =>
+            {
+                Model.Sample = "hoge";
+            });
         }
+
+        public RelayCommand SampleCommand { get; set; }
     }
 }

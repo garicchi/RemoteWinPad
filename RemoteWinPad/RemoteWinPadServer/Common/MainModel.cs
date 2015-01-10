@@ -9,9 +9,18 @@ namespace RemoteWinPadServer.Common
 {
     public class MainModel:ObservableObject
     {
+        private string _sample;
+
+        public string Sample
+        {
+            get { return _sample; }
+            set { Set(ref _sample,value); }
+        }
         public MainModel()
         {
-
+            Sample = "moge";
         }
+
+        
     }
 }

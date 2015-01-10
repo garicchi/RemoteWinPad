@@ -42,8 +42,8 @@ namespace RemoteWinPadServer
         {
             POINT pos = new POINT();
             
-            GetCursorPos(out pos);
-            SetCursorPos(100,100);
+            //GetCursorPos(out pos);
+            //SetCursorPos(100,100);
         }
     }
 }
