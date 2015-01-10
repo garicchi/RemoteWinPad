@@ -1,0 +1,13 @@
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\bin\Debug\RemoteWinPadServer.exe.config
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\bin\Debug\RemoteWinPadServer.exe
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\bin\Debug\RemoteWinPadServer.pdb
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.csprojResolveAssemblyReference.cache
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\MainWindow.baml
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\MainWindow.g.cs
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\App.g.cs
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer_MarkupCompile.cache
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.g.resources
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.Properties.Resources.resources
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.csproj.GenerateResource.Cache
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.exe
+c:\users\ryota\documents\visual studio 2013\Projects\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.pdb

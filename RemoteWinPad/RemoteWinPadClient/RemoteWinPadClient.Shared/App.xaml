@@ -1,0 +1,5 @@
+<Application x:Class="RemoteWinPadClient.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="using:RemoteWinPadClient">
+  <Application.Resources>
+    <vm:ViewModelLocator x:Key="Locator" xmlns:vm="using:RemoteWinPadClient.ViewModel" />
+  </Application.Resources>
+</Application>
