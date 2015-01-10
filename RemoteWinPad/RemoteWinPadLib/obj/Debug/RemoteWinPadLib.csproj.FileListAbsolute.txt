@@ -1,0 +1,14 @@
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\RemoteWinPadLib.dll
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\RemoteWinPadLib.pdb
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\obj\Debug\RemoteWinPadLib.csprojResolveAssemblyReference.cache
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\obj\Debug\RemoteWinPadLib.dll
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\obj\Debug\RemoteWinPadLib.pdb
