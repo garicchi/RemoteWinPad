@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -25,6 +26,11 @@ namespace RemoteWinPadClient
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Page_PointerMoved(object sender, PointerRoutedEventArgs e)
+        {
+            Debug.WriteLine(e.GetCurrentPoint(this).Position.X + " " + e.GetCurrentPoint(this).Position.Y);
         }
     }
 }

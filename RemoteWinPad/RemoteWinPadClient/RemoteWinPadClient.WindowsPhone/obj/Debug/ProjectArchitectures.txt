@@ -1,0 +1,2 @@
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadClient\RemoteWinPadClient.WindowsPhone\RemoteWinPadClient.WindowsPhone.csproj;neutral
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadLib\RemoteWinPadLib.csproj;neutral

@@ -40,3 +40,5 @@ C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\R
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.Properties.Resources.resources
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.csproj.GenerateResource.Cache
 C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\obj\Debug\RemoteWinPadServer.TaskTray.NotifyIconWrapper.resources
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ryota\Projects\RemoteWinPad\RemoteWinPad\RemoteWinPadServer\bin\Debug\Newtonsoft.Json.xml

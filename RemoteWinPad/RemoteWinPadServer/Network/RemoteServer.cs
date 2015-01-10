@@ -90,9 +90,9 @@ namespace RemoteWinPadServer.Network
         {
             foreach (RemoteClient client in _clientList)
             {
-                await client.OpenAsync(async(string message) =>
+                await client.OpenAsync((string message) =>
                 {
-                    PadData data = await JsonConvert.DeserializeObjectAsync<PadData>(message);
+                    PadData data = (PadData)JsonConvert.DeserializeObject(message);
                     onReceive(data);
                 });
             }

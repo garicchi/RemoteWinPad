@@ -18,7 +18,6 @@ namespace RemoteWinPadLib.Data
         [DataMember]
         public int Y_Delta { get; set; }
 
-        [DataMember]
         public TouchData()
         {
 
